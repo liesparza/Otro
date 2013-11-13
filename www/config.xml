@@ -12,24 +12,7 @@
 
     <description>
         Invaders sample application that responds to the deviceready event.
-=======
-        id        = "com.phonegap.invasion"
-        version   = "1.0.0">
 
-    <name>Invasion</name>
-
-    <description>
-        Invasion sample application that responds to the deviceready event.
->>>>>>> 685ac9340593c48a328039c964b7ddf0c5db6a46
-=======
-        id        = "com.phonegap.invasion"
-        version   = "1.0.0">
-
-    <name>Invasion</name>
-
-    <description>
-        Invasion sample application that responds to the deviceready event.
->>>>>>> 685ac9340593c48a328039c964b7ddf0c5db6a46
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
