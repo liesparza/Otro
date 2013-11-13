@@ -1,0 +1,122 @@
+body {
+	background-image:url(../img/got.jpg);
+	background-repeat: repeat-x;
+	background-size:cover;
+	animation:fondo 20s linear infinite;
+	-webkit-animation:fondo 20s linear infinite;
+
+}
+@keyframes fondo {
+	from{background-position: 1440px 0px;}
+	to{background-position: 0px 0;}
+}
+
+@-webkit-keyframes fondo {
+	from{background-position: 1440px 0px;}
+	to{background-position: 0px 0;}
+}
+.frente {
+position: absolute;
+bottom:0;
+left:40%;
+z-index:10;
+animation: gir 1s infinite;
+
+}
+.frente img{
+	position: relative;
+}
+.yisus {
+
+/*position:relative;*/
+	animation: yisus 1s infinite;
+}
+
+/*.nyan {
+position:relative;
+	
+}
+
+.gir {
+	position:relative;
+	}
+*/
+@keyframes gir{
+
+	from {bottom:0;}
+	to {bottom:1px;}
+}
+
+@keyframes yisus {
+from {left:0;}
+	to {left:30px;}
+
+}
+
+@keyframes nyan {
+from {bottom:0;}
+	to {bottom:10px;}
+
+}
+
+@-webkit-keyframes gir{
+	from {bottom:0;}
+	to {bottom:1px;}
+}
+
+@-webkit-keyframes yisus {
+from {left:0;}
+	to {left:30px;}
+
+}
+
+@-webkit-keyframes nyan {
+from {bottom:0;}
+	to {bottom:10px;}
+
+}
+
+.piso {
+	position:absolute;
+	width:100%;
+	bottom:0;
+	height:100px;
+	left:0;
+	background: #1f3b08;
+	background:-moz-linear-gradient(top, #1f3b08 0% #627d4d 99%);
+	background:-webkit-gradient(linear, left top bottom, color-stop(0%, #1f3b08), color-stop(99%, #627d4d));
+	background:-webkit-linear-gradient(top, #1f3b08 0%, #627d4d 99%);
+	background:-o-linear-gradient(top, #1f3b08 0%, #627d4d 99%);
+	background:-ms-linear-gradient (top #1f3b08 0% #627d4d 99%);
+	background: linear-gradient(to bottom, #1fb308  0% #627d4d 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient (startColorstr= '#1f3b08', endColorstr='#627d4d',GradientType=0);
+}
+
+@media(max-width:420px) {
+	.frente img{
+		width:40%;
+
+	}
+
+.piso {
+	height:50px;
+}
+
+body {
+background-size: 380px ;
+}
+@keyframes fondo {
+
+from{background-position: 700px 0px;}
+	to{background-position:0px 0px;}
+
+}
+
+@-webkit-keyframes fondo {
+
+from{background-position: 700px 0px;}
+	to{background-position:0px 0px;}
+}
+
+
+}
